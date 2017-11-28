@@ -17,6 +17,7 @@
 		497CA6901FC24A3300E09047 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 497CA68F1FC24A3300E09047 /* GoogleService-Info.plist */; };
 		497CA6921FC24B9C00E09047 /* AccountsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CA6911FC24B9C00E09047 /* AccountsController.swift */; };
 		497CA6941FC24BAC00E09047 /* TransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CA6931FC24BAC00E09047 /* TransactionController.swift */; };
+		49E9FD451FCD21C8004AFCA3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E9FD441FCD21C8004AFCA3 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		497CA68F1FC24A3300E09047 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		497CA6911FC24B9C00E09047 /* AccountsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsController.swift; sourceTree = "<group>"; };
 		497CA6931FC24BAC00E09047 /* TransactionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionController.swift; sourceTree = "<group>"; };
+		49E9FD441FCD21C8004AFCA3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		FB9B77B7425F814B004FB2BC /* Pods-MobileBanking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileBanking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileBanking/Pods-MobileBanking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 				497CA68D1FC2404900E09047 /* LoginController.swift */,
 				497CA6911FC24B9C00E09047 /* AccountsController.swift */,
 				497CA6931FC24BAC00E09047 /* TransactionController.swift */,
+				49E9FD441FCD21C8004AFCA3 /* TabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				490FD0B41FC23B1A00012859 /* ViewController.swift in Sources */,
 				497CA68E1FC2404900E09047 /* LoginController.swift in Sources */,
 				497CA6941FC24BAC00E09047 /* TransactionController.swift in Sources */,
+				49E9FD451FCD21C8004AFCA3 /* TabBarController.swift in Sources */,
 				490FD0B21FC23B1A00012859 /* AppDelegate.swift in Sources */,
 				497CA6921FC24B9C00E09047 /* AccountsController.swift in Sources */,
 			);
