@@ -19,6 +19,8 @@
 		497CA6941FC24BAC00E09047 /* TransactionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497CA6931FC24BAC00E09047 /* TransactionController.swift */; };
 		49E9FD451FCD21C8004AFCA3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E9FD441FCD21C8004AFCA3 /* TabBarController.swift */; };
 		49E9FD491FCD2E48004AFCA3 /* AccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E9FD481FCD2E48004AFCA3 /* AccountTableViewCell.swift */; };
+		49E9FD561FCE5C3C004AFCA3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E9FD551FCE5C3C004AFCA3 /* TableViewCell.swift */; };
+		49E9FD581FCE75D2004AFCA3 /* AccountStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E9FD571FCE75D2004AFCA3 /* AccountStr.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		497CA6931FC24BAC00E09047 /* TransactionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionController.swift; sourceTree = "<group>"; };
 		49E9FD441FCD21C8004AFCA3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		49E9FD481FCD2E48004AFCA3 /* AccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewCell.swift; sourceTree = "<group>"; };
+		49E9FD551FCE5C3C004AFCA3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		49E9FD571FCE75D2004AFCA3 /* AccountStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountStr.swift; sourceTree = "<group>"; };
 		FB9B77B7425F814B004FB2BC /* Pods-MobileBanking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileBanking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileBanking/Pods-MobileBanking.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				497CA68C1FC2402800E09047 /* Controllers */,
+				49E9FD4A1FCE56F3004AFCA3 /* Structures */,
 				490FD0B11FC23B1A00012859 /* AppDelegate.swift */,
 				490FD0B31FC23B1A00012859 /* ViewController.swift */,
 				490FD0B51FC23B1A00012859 /* Main.storyboard */,
@@ -90,11 +95,20 @@
 			children = (
 				497CA68D1FC2404900E09047 /* LoginController.swift */,
 				497CA6911FC24B9C00E09047 /* AccountsController.swift */,
+				49E9FD481FCD2E48004AFCA3 /* AccountTableViewCell.swift */,
 				497CA6931FC24BAC00E09047 /* TransactionController.swift */,
 				49E9FD441FCD21C8004AFCA3 /* TabBarController.swift */,
-				49E9FD481FCD2E48004AFCA3 /* AccountTableViewCell.swift */,
+				49E9FD551FCE5C3C004AFCA3 /* TableViewCell.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		49E9FD4A1FCE56F3004AFCA3 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				49E9FD571FCE75D2004AFCA3 /* AccountStr.swift */,
+			);
+			path = Structures;
 			sourceTree = "<group>";
 		};
 		A22194F981B14C17E1592ACB /* Frameworks */ = {
@@ -252,11 +266,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E9FD581FCE75D2004AFCA3 /* AccountStr.swift in Sources */,
 				490FD0B41FC23B1A00012859 /* ViewController.swift in Sources */,
 				497CA68E1FC2404900E09047 /* LoginController.swift in Sources */,
 				497CA6941FC24BAC00E09047 /* TransactionController.swift in Sources */,
 				49E9FD451FCD21C8004AFCA3 /* TabBarController.swift in Sources */,
 				49E9FD491FCD2E48004AFCA3 /* AccountTableViewCell.swift in Sources */,
+				49E9FD561FCE5C3C004AFCA3 /* TableViewCell.swift in Sources */,
 				490FD0B21FC23B1A00012859 /* AppDelegate.swift in Sources */,
 				497CA6921FC24B9C00E09047 /* AccountsController.swift in Sources */,
 			);
